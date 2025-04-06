@@ -15,7 +15,7 @@ const SmallNavbar = () => {
     { name: 'Applications', path: '/Applications' },
     { name: 'Register', path: '/Register' },
     { name: 'Course Page', path: '/CoursePage' },
-    { name: 'Assessment', path: '/Assessment' },
+    { name: 'Assessment', path: '/assessment/q1' },
     { name: 'FAQs', path: '/Faqs' },
     { name: 'Feedback and Contact Us', path: '/Contact' },
     { name: 'About us', path: '/About' }
