@@ -76,13 +76,18 @@ body {
     font-weight: bolder;
     text-decoration: underline;
 }
-.main{
+.main {
     background: linear-gradient(to bottom, #e8f8f5, #d1f2eb);
-    height: 660px;
-    width: 1440px;
-}
+    /* height: 460px; */  /* ❌ Remove this line */
+    width: 100%;
+    padding-bottom: 30px; /* ✅ optional, if needed */
+  }
+  
 .msg {
     color: #333333;
+    background-color: #e8f8f5;
+    height: 70px;
+    width: 1440px;
     font-weight: 900;
     font-size: 50px;
     text-align: center;
@@ -92,7 +97,7 @@ body {
     text-transform: uppercase;
 }
 .q1{
-    margin-top: 9px;
+    
     display: flex;
     justify-content:space-between;
 
@@ -112,7 +117,7 @@ body {
     width: 600px;
     text-align: center;
     margin-left:90px;
-    margin-top: 40px;
+    
     margin-bottom: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -132,7 +137,7 @@ body {
     text-align: center;
     margin-left:100px;
     margin-right: 100px;
-    margin-top: 40px;
+    
     margin-bottom: 40px;
     padding-top: 40px;
     padding-bottom: 40px;

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './faqs.css';
-import { FaCaretDown } from 'react-icons/fa';
+
+
 
 const faqs = [
   {
@@ -53,7 +54,7 @@ const Faqs = () => {
           <div key={index}>
             <p className="p" onClick={() => toggleAnswer(index)}>
               <b>Q{index + 1}:</b> {faq.question}
-              <FaCaretDown />
+              
             </p>
             {openIndex === index && (
               <div className="answer">{faq.answer}</div>
