@@ -13,7 +13,7 @@ const SmallNavbar = () => {
   const pages = [
     { name: 'Introduction', path: '/' },
     { name: 'Applications', path: '/Applications' },
-    { name: 'Register', path: '/Register' },
+    { name: 'Register', path: '/Auth' },
     { name: 'Course Page', path: '/CoursePage' },
     { name: 'Assessment', path: '/assessment/q1' },
     { name: 'FAQs', path: '/Faqs' },
